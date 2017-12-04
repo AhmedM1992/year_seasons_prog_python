@@ -1,4 +1,5 @@
- if month in [1, 2, 12] or month in ['January', 'February', 'December']:
+def seasons():
+    if month in [1, 2, 12] or month in ['January', 'February', 'December']:
         return 'winter'
     elif month in [3, 4, 5] or month in ['March', 'April', 'May']:
         return 'spring'
